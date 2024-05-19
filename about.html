@@ -17,28 +17,29 @@
 <body>
 
   <!-- Header Section -->
-  <section>
-    <header id="myNavbar" id="navbar">
-      <div class="logo" style="color: #bb9476;">DP System</div>
-      <ul class="menu">
-        <li><a href="/" style="color: #bb9476;">Home</a></li>
-        <li><a href="#" style="color: #bb9476;">About</a></li>
-      </ul>
-      <div class="search">
-        <ul class="menu">
-          <li><a href="#" style="color: #bb9476;">CHECKUP</a></li>
-        </ul>
-      </div>
-    </header>
-  </section>
-  <div class="carousel1">
+  <header>
+
+    <div class="logo"><span>DP</span> System</div>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+
+    <div class="right-icons">
+      <div id="menu-bars" class="fas fa-bars"></div>
+      <div class="btn">CHECKUP</div>
+    </div>
+
+  </header>
+  <div class="carousel1" style="margin-top: 72px;">
     <img src="/images/2.png" alt="banner1" />
   </div>
 
   <!-- Step for Checkup Section -->
-  <section class="aboutdetails">
+  <section class="aboutdetails main-about">
     <div class="checkup-details">
-      <h1>
+      <h1 style="font-size: 3.5rem;">
         About Us
         <div style="
             height: 4px;
@@ -78,13 +79,22 @@
     <img src="/images/about bg.png" />
   </section>
 
-  <footer>
-    <!--**bottom**********************-->
-    <div class="footer-bottom">
-      <span class="footer-owner">Made By DeveloperArya</span>
-      <span class="copyright">&#169; Copyright 2024 - DP System</span>
+  <!-- footer -->
+
+  <div class="main-footer">
+    <div class="footer-inner">
+      <div class="footer-content">
+        <div class="link">
+          <a href="">Made By DP System</a>
+        </div>
+        <div class="link">
+          <a href="">&copy; Copyright 2024 - DP System</a>
+        </div>
+      </div>
     </div>
-  </footer>
+  </div>
+
+  <!-- footer ended -->
 
   <script src="/static/js/app.js"></script>
   <script src="/js/main.js"></script>
