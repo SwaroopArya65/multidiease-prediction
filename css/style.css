@@ -76,7 +76,8 @@ header {
 }
 
 .navbar a:hover {
-    color: var(--maincolor);
+    color: var(--mainsecondery);
+    font-size: large;
 }
 
 .navbar a::after {
@@ -802,7 +803,9 @@ header {
         display: block;
         margin: 2rem;
         padding: 1rem;
-        border: 1px solid var(--textcolor);
+        color: white;
+        background: #2ec8a6;
+        border-radius: 3px;
     }
 
     .home .home-left-content {
